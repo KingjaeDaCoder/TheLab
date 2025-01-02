@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #000000;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    font-family: "Montserrat", arial;
+    width: 100vw;
+    margin: -10px auto 0px auto;
+    margin-left: -10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    transition: 1s ease;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    text-align: center;
+    transition: 1s ease;
+    transition-delay: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 2%;
+}
+
+.nav-bar a:hover {
+    font-size: 20px;
+}
+.nav-bar img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    transition: 1s ease;
+    transition-delay: none;
+}
+
+.nav-bar img:hover {
+    opacity: 0.2;
+}
+
+.nav-bar li a {
+    color: lime;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s ease;
+    transition-delay: none;
+}
+
+.nav-bar button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 4px solid white;
+    border-radius: 40px;
+    padding: 15px 15px;
+    margin-left: 30%;
+    width: 10%;
+    cursor: pointer;
+    transition: 1s ease;
+    transition-delay: none;
+}
+
+.nav-bar button a {
+    font-family: "Montserrat", arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar button:hover {
+    opacity: 0.5;
+}
+
+.lab img {
+    width: 85%;
+    height: 90%;
+    margin-top: 7%;
+    margin-left: 145px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    transition: 1s ease;
+}
+
+.sect1 {
+    margin-top: 5%;
+}
+.lead {
+    font-family: "Montserrat", arial;
+    color: white;
+    width: 40%;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+
+.descrip img {
+    margin-top: 5%;
+    margin-left: 42%;
+}
+
+.descrip pre {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", arial;
+    font-size: 20px;
+}
+
+.descrip h1 {
+    text-align: center;
+    color: #07C001;
+    font-family: "Montserrat", arial;
+    margin-top: 2%;
+}
+
+.social {
+    width:10%;
+    padding: 5px 5px;
+    margin-left: 46%;
+}
+
+.social li {
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    filter: grayscale(1);
+}
+.social ul {
+    list-style: none;
+}
+
+.own {
+    font-family: "Montserrat", arial;
+    margin-left: 44%;
+    margin-top: 3%;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    width: 15%;
+    text-align: center;
+}
+
+.mike {
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", arial;
+    text-align: center;
+    padding: 10px 10px;
+    width: 50%;
+    margin-left: 25.5%;
+    margin-top: 5%;
+    border-radius: 1%;
+}
+
+.mike h1 {
+    color: #07C001;
+}
+
+.mike pre {
+    font-family: "Montserrat", arial;
+    color: black;
+}
+
+.mike button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+
+.mike button a {
+    font-family: "Montserrat", arial;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 100px  30px;
+}
+
+.judge {
+    background-color: white;
+    font-family: "Montserrat", arial;
+    text-align: center;
+    border-radius: 1%;
+    margin-left: 25.5%;
+    margin-top: 5%;
+    width: 51%;
+}
+
+.judge h1 {
+    color: #07C001;
+    margin-top: 5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.judge pre {
+    font-family: "Montserrat", arial;
+    color: black;
+}
+
+.judge button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.judge button a {
+
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 100px  30px;
+}
+
+.com {
+    font-size: 150px;
+    color: white;
+    font-family: "Montserrat", arial;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.games {
+    background-color: white;
+}
+
+.games ul {
+    list-style: none;
+}
+
+.games li {
+    float: right;
+    padding: 80px;
+}
+
+.games li a {
+    font-family: "Montserrat", arial;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light background color */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Style for the navigation bar */
+.nav-bar {
+    background-color: #333;
+    padding: 20px;
+    opacity: 0; /* Start with navbar hidden */
+    animation: slideIn 1s forwards; /* Slide in the navbar */
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin: 0 15px;
+}
+
+.nav-bar ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-bar button {
+    background-color: #03f103; /* Contact button with a bright color */
+    border: none;
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-left: -100px; /* Move the button a little to the left */
+}
+
+.nav-bar button a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar button:hover {
+    background-color: #000000; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly grow the button */
+}
+
+/* Centering the .games section */
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000000;
+    opacity: 0; /* Start with games section hidden */
+    animation: fadeIn 2s forwards; /* Fade in the games section */
+}
+
+/* Style the unordered list of game buttons */
+.games ul {
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Centers buttons vertically */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Move buttons up by adding a negative margin-top */
+    margin-top: -500px; /* Adjust this value to move them higher */
+}
+
+/* Style the individual list items (buttons) */
+.games ul li {
+    margin: 20px; /* More space between buttons */
+    opacity: 0; /* Start with the buttons hidden */
+    animation: slideUp 1s ease-out forwards; /* Animate buttons sliding up */
+}
+
+/* Button styling */
+.games ul a {
+    display: block;
+    padding: 20px 40px;
+    font-size: 22px;
+    background-color: #4CAF50; /* Green background */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Hover effects */
+.games ul a:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: translateY(-5px); /* Slightly lifts the button on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* More shadow on hover */
+}
+
+/* Focus effect for accessibility */
+.games ul a:focus {
+    outline: 2px solid #45a049;
+    outline-offset: 4px;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Add a responsive design for smaller screens */
+@media (max-width: 768px) {
+
+    .games ul {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+    }
+
+    .games ul li {
+        margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+
+    .games li a {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+}
+
+
